@@ -8,7 +8,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="border-b border-border">
         <div className="container py-4 flex justify-between items-center">
-          <div className="font-serif font-bold text-xl">Byklai</div>
+          <img src="/logo-byklai_TN.png" alt="byklai" className="h-7 w-auto" />
           <Link href="/discovery">
             <Button variant="default">Discovery</Button>
           </Link>
@@ -34,9 +34,9 @@ export default function Home() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
-            <Button size="lg" variant="outline">
-              Ver Portafolio
-            </Button>
+            <a href="https://byklai.com" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline">Ver Portafolio</Button>
+            </a>
           </div>
         </div>
 
